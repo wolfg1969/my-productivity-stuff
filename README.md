@@ -1,5 +1,5 @@
-# my-productivity-tools
-Tools make me more productive!
+# my-productivity-stuff
+Stuff that make me more productive!
 
 ## Softwares
 
