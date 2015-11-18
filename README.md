@@ -25,7 +25,7 @@ Stuff that make me more productive!
 * [AWS](http://aws.amazon.com/)
 * 
 
-# Open Source Projects
+# Programming
 
 * Python
 * Django
