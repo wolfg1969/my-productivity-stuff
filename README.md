@@ -1,7 +1,7 @@
 # my-productivity-stuff
 Stuff that make me more productive!
 
-## Softwares
+## Applications
 
 * PyCharm
 * Dash
@@ -16,12 +16,23 @@ Stuff that make me more productive!
 * Chrome
 * Parallels Desktop
 * VOX
+* 
 
 ## Websites
 
 * [GitHub](https://github.com/)
 * [stackoverflow](http://stackoverflow.com/)
 * [AWS](http://aws.amazon.com/)
+* 
+
+# Open Source Projects
+
+* Python
+* Django
+* [Django REST Framework](http://www.django-rest-framework.org/)
+* AngularJS
+* Bootstrap
+* 
 
 ## Scripts
 
@@ -44,9 +55,12 @@ Stuff that make me more productive!
   end tell
 ```
 
+*
+
 ## My Stuffs
 
 * [oh-my-stars](https://github.com/wolfg1969/oh-my-stars) - Search my GitHub stars locally (even with Alfre).
+* 
  
 
 
