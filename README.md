@@ -55,8 +55,6 @@ Stuff that make me more productive!
   end tell
 ```
 
-*
-
 ## My Stuffs
 
 * [oh-my-stars](https://github.com/wolfg1969/oh-my-stars) - Search my GitHub stars locally (even with Alfre).
