@@ -1,21 +1,20 @@
 # my-productivity-stuff
 Stuff that make me more productive!
 
-## Applications
+## Tools
 
-* PyCharm
-* Dash
-* iTerm
-* oh-my-zsh
-* Sequel Pro
-* TextMate
-* Homebrew
-* Homebrew Cask
-* Alfred
-* 1Password
-* Chrome
-* Parallels Desktop
-* VOX
+* [Alfred](https://www.alfredapp.com/)
+* [PyCharm](https://www.jetbrains.com/pycharm/)
+* [Dash](https://kapeli.com/dash)
+* [iTerm2](https://www.iterm2.com/)
+* [oh-my-zsh](http://ohmyz.sh/)
+* [Sequel Pro](http://www.sequelpro.com/)
+* [TextMate](https://macromates.com/)
+* [Homebrew](http://brew.sh/)
+* [Homebrew Cask](http://caskroom.io/)
+* [1Password](https://agilebits.com/onepassword)
+* [Parallels Desktop](http://www.parallels.com/cn/products/desktop/)
+* [VOX Player](http://coppertino.com/vox/mac)
 * 
 
 ## Websites
@@ -25,13 +24,13 @@ Stuff that make me more productive!
 * [AWS](http://aws.amazon.com/)
 * 
 
-# Programming
+# Programming Languages & Frameworks
 
-* Python
-* Django
+* [Python](https://www.python.org/)
+* [Django](https://www.djangoproject.com/)
 * [Django REST Framework](http://www.django-rest-framework.org/)
-* AngularJS
-* Bootstrap
+* [AngularJS](https://angularjs.org/)
+* [Bootstrap](http://getbootstrap.com/)
 * 
 
 ## Scripts
@@ -55,9 +54,9 @@ Stuff that make me more productive!
   end tell
 ```
 
-## My Stuffs
+## My Stuff
 
-* [oh-my-stars](https://github.com/wolfg1969/oh-my-stars) - Search my GitHub stars locally (even with Alfre).
+* [oh-my-stars](https://github.com/wolfg1969/oh-my-stars) - Search my GitHub Stars locally (even with Alfre).
 * 
  
 
