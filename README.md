@@ -35,7 +35,8 @@ Stuff that make me more productive!
 
 ## Scripts
 
-* Connect to a Cisco IPSec VPN
+### Connect to a Cisco IPSec VPN
+
 ```osascript
   set vpn_name to "'Your VPN Name'"
   set user_name to "your username"
@@ -54,8 +55,9 @@ Stuff that make me more productive!
   end tell
 ```
 
-* [Delete obsolete elasticbeanstalk app versions](https://gist.github.com/wolfg1969/d38e495a6844a0798986)
-```
+### [Delete obsolete elasticbeanstalk app versions](https://gist.github.com/wolfg1969/d38e495a6844a0798986)
+
+```bash
 #!/usr/bin/env bash
 
 # 2015/12/03 Guo Yong
