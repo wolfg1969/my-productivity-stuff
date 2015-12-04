@@ -54,7 +54,32 @@ Stuff that make me more productive!
   end tell
 ```
 
-* [Delete obsolete elasticbeanstalk app versions](https://gist.github.com/wolfg1969/d38e495a6844a0798986.js)
+* [Delete obsolete elasticbeanstalk app versions](https://gist.github.com/wolfg1969/d38e495a6844a0798986)
+```
+#!/usr/bin/env bash
+
+# 2015/12/03 Guo Yong
+# Delete obsolete elasticbeanstalk app versions
+# http://franklanganke.com/remove-old-aws-elastic-beanstalk-application-versions-bash-cron/
+
+application=$1
+filter="uat"
+aws elasticbeanstalk describe-environments --application-name=$application --output text --query 'Environments[*].[EnvironmentName,VersionLabel]' | grep -i $filter | awk '{print $2}' > deployed-versions.txt
+
+versions=$(aws elasticbeanstalk describe-application-versions --application-name $application --output text --query 'ApplicationVersions[*].[VersionLabel,Description]' | grep $filter | awk '{print $1}')
+
+for version in $versions
+do
+  if grep -Fxq "$version" deployed-versions.txt
+  then
+    echo "Version \"$version\" is deployed. Skipping......"
+  else
+    aws elasticbeanstalk delete-application-version --application-name $application --version-label $version --delete-source-bundle && echo "Version \"$version\" is deleted." || echo "Failed to delete version \"$verion\""
+  fi
+done
+
+rm -f deployed-versions.txt
+```
 
 ## My Stuff
 
