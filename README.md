@@ -54,6 +54,10 @@ Stuff that make me more productive!
   end tell
 ```
 
+* Delete obsolete elasticbeanstalk app versions
+
+<script src="https://gist.github.com/wolfg1969/d38e495a6844a0798986.js"></script>
+
 ## My Stuff
 
 * [oh-my-stars](https://github.com/wolfg1969/oh-my-stars) - Search my GitHub Stars locally (even with Alfre).
