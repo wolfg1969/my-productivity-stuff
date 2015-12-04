@@ -54,9 +54,7 @@ Stuff that make me more productive!
   end tell
 ```
 
-* Delete obsolete elasticbeanstalk app versions
-
-<script src="https://gist.github.com/wolfg1969/d38e495a6844a0798986.js"></script>
+* [Delete obsolete elasticbeanstalk app versions](https://gist.github.com/wolfg1969/d38e495a6844a0798986.js)
 
 ## My Stuff
 
